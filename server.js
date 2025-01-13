@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import connectDb from "./config/db.js";
 import renterRoutes from "./routes/renterRoutes.js";
-import CarRoutes from "../backend/routes/CarRoutes.js"
+import CarRoutes from "./routes/CarRoutes.js"
 import ownerAuthRoutes from "./routes/ownerAuthRoutes.js";
 import bookingRoutes from "./models/booking.js"
 
