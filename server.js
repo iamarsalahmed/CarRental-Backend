@@ -40,4 +40,5 @@ app.use("/car", CarRoutes);
 app.use("/booking", bookingRoutes);
 
 app.listen(PORT, (req, res) => {
-  console.log(`Serve is runnng on http://localhost:${
+  console.log("Serve is runnng ");
+});
